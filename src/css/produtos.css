@@ -1,0 +1,205 @@
+:root {
+    --bgcolor_Principal: #fec63e;
+}
+
+.interno_produtos {
+    width: 100%;
+    background: url(../img/bg-produtos.jpg) no-repeat center 29%;
+    background-size: cover;
+    margin-top: 92px;
+    height: 200px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.interno_produtos p {
+    color: #fff;
+}
+
+.sobre h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.sobre h1 .sobre p {
+    color: #fff;
+}
+
+.produto_item {
+    padding-top: 60px;
+}
+
+.produto_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.produto_item h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    position: absolute;
+    color: #000;
+}
+
+.produto_item h2::after,
+.produto_item h2::before {
+    content: "";
+    background: #000;
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 3px auto;
+}
+
+.produto_icone {
+    text-align: center;
+    background: #000;
+    display: flex;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.passeio img {
+    display: inline-block;
+}
+
+.produto_info {
+    background: #000;
+    height: 280px;
+}
+
+.produto_info p {
+    padding: 29px 40px 98px;
+    color: #fff;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.produto_info ul li {
+    width: 229px;
+    background: var(--bgcolor_Principal);
+    border: 0;
+    float: left;
+    line-height: 49px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+    height: 49px;
+}
+
+.produto_info ul li:nth-child(1) {
+    margin: 0px 2px 2px 0;
+}
+
+.produto_info ul li:nth-child(3) {
+    margin: 0px 2px 0px 0;
+}
+
+.formulario {
+    margin-top: 60px;
+}
+
+.formulario {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario p {
+    margin-bottom: 10px;
+}
+
+.formulario h2:after {
+    content: "";
+    background: var(--bgcolor_Principal);
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 3px auto;
+}
+
+.formulario h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--bgcolor_Principal);
+    padding: 30px;
+}
+
+.formulario label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.formulario textarea,
+.formulario input {
+    background: #000;
+    color: #fff;
+    border: 3px solid var(--bgcolor_Principal);
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 5px;
+}
+
+button.btn.enviar {
+    padding: 6px 40px;
+}
+
+.dados,
+.formulario form {
+    padding: 20px 40px;
+}
+
+.dados h3 {
+    color: var(--bgcolor_Principal);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.dados p {
+    color: #fff;
+    line-height: 25px;
+}
+
+.dados a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 25px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.dados ul li:nth-child(even) {
+    background: rgb(70, 70, 70);
+}
+
+.dados ul li {
+    padding: 5px;
+    color: #fff;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.dados ul p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 15px;
+}
