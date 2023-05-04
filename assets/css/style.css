@@ -1,0 +1,324 @@
+/* header e menu  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+:root {
+    --color-1: #21D3DD;
+    --color-2: #272323;
+    --color-3: #5484C4;
+    --color-4: #5494B0;
+    --color-5: #6C9BB9;
+    --color-6: #1760A1;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: grid;
+    place-items: center;
+    padding: 15px 0;
+    background: #fff;
+}
+
+.container {
+    width: 1280px;
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuTop ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerTop a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-2)
+}
+
+.bannerPrincipal {
+    width: 100%;
+    object-fit: contain;
+}
+
+.btnWhatsapp {
+    margin: 0 auto;
+    grid-area: 3/1;
+    width: 363px;
+    height: 55px;
+    background: var(--color-6);
+    border-radius: 20.625px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btnWhatsapp:hover {
+    color: #fff;
+}
+
+body {
+    background: url("../../assets/img/banner.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.chamadaPrincipal {
+    display: grid;
+    height: calc(100vh - 136px);
+}
+
+.chamadaPrincipal p {}
+
+.textoPrincipal {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 71px;
+    color: #FFFFFF;
+    padding-top: 6%;
+}
+
+.textoSecudario {
+    font-weight: 400;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+section {
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+.container {}
+
+.containerQuemsomos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+section#quemsomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloPrincipal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: var(--color-6);
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.tituloSecudanrio {
+    font-size: 17px;
+    color: var(--color-2);
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.listBeneficios div {
+    margin-bottom: 10px;
+}
+
+.listBeneficios p {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.listBeneficios span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.buttonOfertas {
+    margin: 10% 0;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+video {
+    width: 100%;
+    height: 600px;
+}
+
+.buttonOrcamento {
+    margin: 3% 0;
+}
+
+div.item {
+    width: 300px;
+    margin: 0 20px;
+}
+
+.item img {
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+    object-position: center;
+}
+
+.buttonInstagram {
+    margin-top: 100px
+}
+
+.atualizarPost {
+    display: none;
+}
+
+.banner {
+    width: 780px;
+    margin: 20px auto;
+    /* height: 229px; */
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.bannerLeft {
+    width: 50%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.arrowBanner::before {
+    content: '<';
+    width: 15px;
+    height: 25px;
+    display: block;
+    color: rgb(194, 194, 194);
+    position: absolute;
+    right: 2px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+    line-height: 25px;
+    background: #fff;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+    top: calc(229px - 57%);
+}
+
+.arrowBanner::after {
+    top: calc(229px - 57%);
+    content: '>';
+    width: 15px;
+    height: 25px;
+    display: block;
+    color: rgb(194, 194, 194);
+    position: absolute;
+    left: 2px;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 0 20px 20px 0;
+    line-height: 25px;
+    background: #fff;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+}
+
+.arrowBanner {
+    height: 100%;
+    background: rgb(194, 194, 194);
+    width: 2px;
+    position: absolute;
+    margin-left: 50%;
+    z-index: 1;
+    z-index: 1;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    background: var(--color-4);
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 12px
+}
+
+.menuMobile {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    section {
+        height: auto;
+    }
+    .menuMobile {
+        display: block;
+    }
+    .menuMobile div {
+        width: 30px;
+        background: #2b2d42;
+        height: 2px;
+        position: relative;
+    }
+    .menuMobile div:after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        width: 30px;
+        background: #2b2d42;
+        height: 2px;
+    }
+    .menuMobile div:before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        width: 30px;
+        background: #2b2d42;
+        height: 2px;
+    }
+}
